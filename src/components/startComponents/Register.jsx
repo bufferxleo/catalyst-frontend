@@ -7,13 +7,14 @@ const Register = (props) => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [rePassword, setRePassword] = useState("");
+  const API_URL = process.env.REACT_APP_BACK_END_URL;
 
   const [passStep, setPassStep] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/users/signup', { name, email,phone, password });
+      const response = await axios.post(`${API_URL}/users/signup`, { name, email,phone, password });
       console.log(response.data);
       props.onFormSwitch('yes');
       alert("Signup success!!");
