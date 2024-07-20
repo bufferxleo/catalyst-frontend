@@ -8,11 +8,12 @@ const Login = (props) => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const {setUser} = useUserContext();
+  const API_URL = process.env.REACT_APP_BACK_END_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3001/users/login", {
+      const response = await axios.post(`${API_URL}/users/login`, {
         email,
         password,
       });
