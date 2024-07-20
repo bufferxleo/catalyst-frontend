@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/catalyst-frontend/static/css/main.6fe8c542.css",
+    "main.js": "/catalyst-frontend/static/js/main.b30449f9.js",
+    "static/js/453.e0b08021.chunk.js": "/catalyst-frontend/static/js/453.e0b08021.chunk.js",
+    "index.html": "/catalyst-frontend/index.html",
+    "main.6fe8c542.css.map": "/catalyst-frontend/static/css/main.6fe8c542.css.map",
+    "main.b30449f9.js.map": "/catalyst-frontend/static/js/main.b30449f9.js.map",
+    "453.e0b08021.chunk.js.map": "/catalyst-frontend/static/js/453.e0b08021.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fe8c542.css",
+    "static/js/main.b30449f9.js"
+  ]
+}
